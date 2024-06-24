@@ -35,6 +35,8 @@ const Container = styled.div`
   width: calc(50% - 20px);
   min-width: 300px;
   text-align: left;
+  animation-name: fadeInLeft;
+  animation-duration: 1000ms;
 `;
 const Text1 = styled.p`
   color: var(--persian-orange);

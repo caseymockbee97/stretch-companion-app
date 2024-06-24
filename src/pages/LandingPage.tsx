@@ -29,6 +29,8 @@ const Image = styled.img`
   width: calc(50% - 20px);
   min-width: 300px;
   align-self: center;
+  animation-name: fadeInRight;
+  animation-duration: 1000ms;
 `;
 
 const FlexContainer = styled.div`
